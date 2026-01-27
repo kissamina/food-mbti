@@ -23,3 +23,8 @@ http://localhost:3000 を開く。
 - アルゴリズムをちゃんと作る
 - 画像アップロードする
 - テキストや質問をちゃんとする。
+
+githubの動かし方
+git add .
+git commit -m "ここにコメントを書く"
+git push -u origin main
