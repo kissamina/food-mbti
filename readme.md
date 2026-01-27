@@ -6,19 +6,9 @@ cd food-mbti
 npm install
 ```
 
-- TypeScript ビルド
+- ビルド&スタート
 ```
 npm run build
-```
-
-- 開発中（監視モード）
-```
-npm run dev
-# tsc -w でファイル変更を監視
-```
-
-- サーバー起動
-```
 npm start
 ```
 
@@ -27,11 +17,7 @@ npm start
 Chrome で以下を開く
 http://localhost:3000
 
-
-## ToDo
-- アルゴリズムをちゃんと作る
-- 画像をアップロードする
-- テキストや質問内容を整理する
+https://kissamina.github.io/food-mbti/
 
 
 ## GitHub への反映
@@ -39,4 +25,8 @@ http://localhost:3000
 git add .
 git commit -m "ここにコメントを書く"
 git push -u origin main
+```
+## Github Pages へ deploy
+```
+npm run deploy
 ```
