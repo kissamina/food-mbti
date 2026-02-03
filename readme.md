@@ -17,9 +17,6 @@ npm start
 Chrome で以下を開く
 http://localhost:3000
 
-https://kissamina.github.io/food-mbti/
-
-
 ## GitHub への反映
 ```
 git add .
@@ -30,3 +27,5 @@ git push -u origin main
 ```
 npm run deploy
 ```
+
+https://kissamina.github.io/food-mbti/
