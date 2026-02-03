@@ -33,7 +33,7 @@ function renderTop() {
     app.innerHTML = "";
     const container = document.createElement("div");
     const title = document.createElement("h1");
-    title.textContent = "食 MBTI 診断";
+    title.textContent = "食キャラ 診断";
     const desc = document.createElement("p");
     desc.textContent = "大学生の食生活から、あなたのタイプと救済フードを提案するよ！";
     const startBtn = document.createElement("button");
