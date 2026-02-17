@@ -152,6 +152,7 @@ function renderResult(resultType) {
       <div class="button-group" style="margin-top: 20px;">
         <button id="detail-btn" class="btn-outline">詳しい説明を見る</button>
         <button id="retry-btn" class="btn-primary" style="margin-left: 8px;">もう一度診断する</button>
+        <button id="top-btn" class="btn-outline" style="margin-left: 8px;">トップへ戻る</button>
       </div>
     </div>
   `;
@@ -162,6 +163,9 @@ function renderResult(resultType) {
     document.getElementById("retry-btn").onclick = () => {
         answers = [];
         setView({ name: "diagnosis", pageIndex: 0 });
+    };
+    document.getElementById("top-btn").onclick = () => {
+        setView({ name: "top" });
     };
 }
 // タイプ詳細ページ
