@@ -3,25 +3,37 @@ export const foodMbtiTypes = [
         id: "H-C-A-D",
         name: "ガチ勢・クリエイティブ料理人",
         shortDescription: "完璧な栄養管理とスパイスからの調理を楽しむ、自己肯定感MAXタイプ。",
-        longDescription: "自炊を単なる作業ではなく「創作」として楽しむタイプ。テスト期間で追い詰められていても、コンビニ飯に逃げず「脳に良い栄養素」を逆算して献立を作ります。気づけばスパイスの配合に凝りすぎて、勉強時間よりカレーを煮込む時間の方が長くなっていることも。不足しがちなのは、調理工程で失われがちな**【鉄分、カリウム】**。救済フードは、時短と栄養を両立させる『冷凍カットほうれん草』。ストイックすぎて疲れた時は、自分では再現できない職人技の『高級レトルトカレー』で、クリエイティビティを刺激しながら自分を甘やかして！",
+        longDescription: "自炊を単なる作業ではなく「創作」として楽しむタイプ。テスト期間で追い詰められていても、コンビニ飯に逃げず「脳に良い栄養素」を逆算して献立を作ります。気づけばスパイスの配合に凝りすぎて、勉強時間よりカレーを煮込む時間の方が長くなっていることも。不足しがちなのは、調理工程で失われがちな【鉄分、カリウム】。救済フードは、時短と栄養を両立させる『冷凍カットほうれん草』。ストイックすぎて疲れた時は、自分では再現できない職人技の『高級レトルトカレー』で、クリエイティビティを刺激しながら自分を甘やかして！",
         imagePath: "./images/hcad.png",
-        iconPath: "./images/hcad_c.png"
+        iconPath: "./images/hcad_c.png",
+        productName: "冷凍カットほうれん草",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【鉄分、カリウム】を時短で補給"
     },
     {
         id: "H-C-A-E",
         name: "新商品ハンター・サプリオタク",
         shortDescription: "自炊はしないが、話題の健康食品や高タンパク新商品は全て試す情報通。",
-        longDescription: "最新の健康トレンドを「タイパ（タイムパフォーマンス）」良く摂取することに命をかけるタイプ。自炊の時間はもったいないけど、不健康になるのは絶対に嫌。SNSで話題の高タンパク商品や、最新サプリを網羅しており、コンビニの棚を見ただけで成分表が脳内に浮かびます。不足しがちなのは、加工食品に頼りすぎて欠乏する**【食物繊維、マグネシウム】**。救済フードは、手軽にミネラルを補える『素焼きミックスナッツ』。情報過多で脳が疲れた時は、何も考えずに飲める『濃厚コールドプレスジュース』でデトックスして！",
+        longDescription: "最新の健康トレンドを「タイパ（タイムパフォーマンス）」良く摂取することに命をかけるタイプ。自炊の時間はもったいないけど、不健康になるのは絶対に嫌。SNSで話題の高タンパク商品や、最新サプリを網羅しており、コンビニの棚を見ただけで成分表が脳内に浮かびます。不足しがちなのは、加工食品に頼りすぎて欠乏する【食物繊維、マグネシウム】。救済フードは、手軽にミネラルを補える『素焼きミックスナッツ』。情報過多で脳が疲れた時は、何も考えずに飲める『濃厚コールドプレスジュース』でデトックスして！",
         imagePath: "./images/hcae.png",
-        iconPath: "./images/hcae_c.png"
+        iconPath: "./images/hcae_c.png",
+        productName: "素焼きミックスナッツ",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【食物繊維、マグネシウム】を手軽に補給"
     },
     {
         id: "H-C-S-D",
         name: "ストイック・ルーティン自炊民",
         shortDescription: "鶏胸肉とブロッコリーを愛し、同じメニューを淡々と食べ続ける修行僧。",
-        longDescription: "食を「筋肉や健康への投資」と割り切り、淡々と継続できる現代の修行僧。毎日同じ時間に、鶏胸肉、ブロッコリー、玄米を食べるルーティンに安心感を覚えます。献立に悩む決断コストすら削減するその姿は、周囲から尊敬の眼差しで見られることも。不足しがちなのは、偏った食材選びによる**【亜鉛、ビタミンB12】**。救済フードは、マンネリを打破する『フレーバー岩塩』。味変するだけで、いつもの食事がご馳走に変わるはず！心が乾いた時は、鶏肉を『銘柄鶏』にグレードアップして、ささやかな贅沢を感じて！",
+        longDescription: "食を「筋肉や健康への投資」と割り切り、淡々と継続できる現代の修行僧。毎日同じ時間に、鶏胸肉、ブロッコリー、玄米を食べるルーティンに安心感を覚えます。献立に悩む決断コストすら削減するその姿は、周囲から尊敬の眼差しで見られることも。不足しがちなのは、偏った食材選びによる【亜鉛、ビタミンB12】。救済フードは、マンネリを打破する『フレーバー岩塩』。味変するだけで、いつもの食事がご馳走に変わるはず！心が乾いた時は、鶏肉を『銘柄鶏』にグレードアップして、ささやかな贅沢を感じて！",
         imagePath: "./images/hcsd.png",
-        iconPath: "./images/hcsd_c.png"
+        iconPath: "./images/hcsd_c.png",
+        productName: "フレーバー岩塩",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【亜鉛、ビタミンB12】をマンネリ打破で補給"
     },
     {
         id: "H-C-S-E",
@@ -29,7 +41,11 @@ export const foodMbtiTypes = [
         shortDescription: "食事はタスク。ベースブレッドや野菜ジュースで効率よく栄養摂取。",
         longDescription: "「食事の時間、もったいなくない？」が口癖の超合理主義者。ベースブレッドや完全栄養ドリンクをデバイスのように扱い、作業しながら最短・最速で「燃料補給」を行います。噛むことすら面倒に感じる日もあり、QOLの基準が「栄養素の数値」にあることも。不足しがちなのは、咀嚼不足による【顔の筋肉への刺激、消化酵素】。救済フードは『ビーフジャーキー』。たまには顎をしっかり使って、野生の感覚を取り戻そう！効率に縛られすぎた時は、あえて『学食のB定食』を誰かと食べて、人間味を取り戻して！",
         imagePath: "./images/hcse.png",
-        iconPath: "./images/hcse_c.png"
+        iconPath: "./images/hcse_c.png",
+        productName: "ビーフジャーキー",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【咀嚼刺激、消化酵素】を補給"
     },
     {
         id: "H-R-A-D",
@@ -37,7 +53,11 @@ export const foodMbtiTypes = [
         shortDescription: "深夜に突然スイッチが入り、野菜たっぷりの謎創作料理を作る変人。",
         longDescription: "普段は食べ忘れるほど適当なのに、突然深夜に「最高のポタージュを作りたい」と覚醒する天才肌。冷蔵庫にある謎の余り物と輸入スパイスで、誰も真似できない絶品料理を生み出します。生活リズムはバラバラですが、使う食材へのこだわり（無農薬、産地直送など）は人一倍。不足しがちなのは、食生活のムラによる【血中ヘモグロビンの安定、糖質】。救済フードは、爆速でエネルギーになる『バナナ』。徹夜明けには、栄養が溶け込んだ『フリーズドライの具だくさん味噌汁』が心身に染み渡るはず！",
         imagePath: "./images/hrad.png",
-        iconPath: "./images/hrad_c.png"
+        iconPath: "./images/hrad_c.png",
+        productName: "バナナ",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【血中ヘモグロビンの安定、糖質】を爆速補給"
     },
     {
         id: "H-R-A-E",
@@ -45,7 +65,11 @@ export const foodMbtiTypes = [
         shortDescription: "不摂生の後、深夜のコンビニで少しでも体に良さそうなドリンクを買って安心する。 ",
         longDescription: "生活リズムはガタガタだけど、心の中には常に「健康でありたい」という願いが同居するタイプ。飲み会やジャンクフードで暴走した翌日、猛烈な自己嫌悪に襲われて「免罪符」を買いに走ります。コンビニの棚で一番高いスムージーを買い、「これで浄化された」と自分を洗脳しがち。不足しがちなのは、不規則な生活による【ビタミンC、カルシウム】。救済フードは『飲むギリシャヨーグルト』。手軽にタンパク質を補給して、罪悪感を消し去りましょう。睡眠時間をしっかり確保するのも忘れずに！",
         imagePath: "./images/hrae.png",
-        iconPath: "./images/hrae_c.png"
+        iconPath: "./images/hrae_c.png",
+        productName: "飲むギリシャヨーグルト",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【ビタミンC、カルシウム】を手軽に補給"
     },
     {
         id: "H-R-S-D",
@@ -53,7 +77,11 @@ export const foodMbtiTypes = [
         shortDescription: "平日はボロボロだが、休日に大量の野菜スープを作り置きして帳尻を合わせる。",
         longDescription: "「週末の自分」が「平日の自分」を救済する努力家。平日は忙しすぎて食生活が崩壊していますが、日曜日の夜、巨大な鍋に余り野菜を全てぶち込み、1週間分のスープを作る儀式で精神を安定させます。不足しがちなのは、平日の欠食による【タンパク質、ビタミンB1】。救済フードは、スープに入れるだけで栄養価が爆上がりする『冷凍餃子』。ボリュームと栄養を一気にアップできる最強の味方です。作り置きが尽きて絶望する木曜日には、少し良い『無添加の冷凍弁当』をストックして自分を救ってあげて！",
         imagePath: "./images/hrsd.png",
-        iconPath: "./images/hrsd_c.png"
+        iconPath: "./images/hrsd_c.png",
+        productName: "冷凍餃子",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【タンパク質、ビタミンB1】をスープに追加で補給"
     },
     {
         id: "H-R-S-E",
@@ -61,7 +89,11 @@ export const foodMbtiTypes = [
         shortDescription: "「明日からサラダ生活」が口癖。サラダチキンを買うが、おにぎりも追加しがち。",
         longDescription: "常に「痩せなきゃ」と思っているけれど、コンビニのレジ横の誘惑に秒で負ける愛すべき矛盾キャラ。サラダチキンを手に取りますが、揚げ物の匂いに抗えず、結局セットで買ってしまうことも。不足しがちなのは、意思の弱さではなく【満足感を与える食物繊維】。救済フードは『もち麦おにぎり』。白米をこれに変えるだけで、食べたい欲求を満たしつつ食物繊維をしっかりチャージできます。「明日から本気出す」の「明日」を今日から少しずつ始めてみて！",
         imagePath: "./images/hrse.png",
-        iconPath: "./images/hrse_c.png"
+        iconPath: "./images/hrse_c.png",
+        productName: "もち麦おにぎり",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【食物繊維】を満足感とともに補給"
     },
     {
         id: "P-C-A-D",
@@ -69,7 +101,11 @@ export const foodMbtiTypes = [
         shortDescription: "「あそこの店の再現レシピ」を作り、インスタに上げるのが生きがい。",
         longDescription: "美味しいもののためなら手間を惜しまない、食への探究心が極めて強いタイプ。話題のレストランの味を「家で再現してみた」と投稿し、大量の「いいね」をもらうのが最高の栄養源です。見た目重視すぎて、栄養バランスは二の次になりがち。不足しがちなのは、映えを優先して抜きがちな【カリウム、ビタミンA】。救済フードは『色鮮やかなパプリカ』。料理の彩りも栄養価も一気に上がって、さらに映える写真が撮れるよ！撮影に疲れた時は、スマホを置いて素材の味と向き合ってみて。",
         imagePath: "./images/pcad.png",
-        iconPath: "./images/pcad_c.png"
+        iconPath: "./images/pcad_c.png",
+        productName: "色鮮やかなパプリカ",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【カリウム、ビタミンA】を彩りとともに補給"
     },
     {
         id: "P-C-A-E",
@@ -77,7 +113,11 @@ export const foodMbtiTypes = [
         shortDescription: "毎週火曜の新商品は欠かさない。期間限定のポテチは全部買うタイプ。",
         longDescription: "コンビニの新発売ラベルに過剰反応してしまう、流行感度ビンビンな人。毎週火曜日は聖別された日であり、期間限定・コラボ品は義務として全てチェックします。3食しっかり食べるより、お菓子で満足しちゃうことも。不足しがちなのは、糖分過多で消費される【タンパク質、ビタミンB群】。救済フードは『プロテインバーのチョコ味』。スイーツ感覚で食べられるけど、しっかり栄養も摂れるからおすすめ！新作がハズレで落ち込んだ時は、あえての『塩昆布』で口直しを楽しんで。",
         imagePath: "./images/pcae.png",
-        iconPath: "./images/pcae_c.png"
+        iconPath: "./images/pcae_c.png",
+        productName: "プロテインバーのチョコ味",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【タンパク質、ビタミンB群】をスイーツ感覚で補給"
     },
     {
         id: "P-C-S-D",
@@ -85,7 +125,11 @@ export const foodMbtiTypes = [
         shortDescription: "おしゃれな料理より茶色いおかず（唐揚げ・生姜焼き）が正義。マヨ必須。",
         longDescription: "「結局これなんだよな」という茶色い飯を愛する、保守的でパワフルな胃袋の持ち主。おしゃれなカフェ飯より、唐揚げ、生姜焼き、ハンバーグをマヨネーズという魔法の調味料でまとめ上げ、白米をかき込む瞬間に最大の幸福を感じます。不足しがちなのは、茶色い食事に圧倒的に足りない【葉物野菜、ビタミンC】。救済フードは『袋入りの千切りキャベツ』。洗わずそのままマヨをかけて、肉料理の横に添えるだけで栄養バランスが激変します。素材の味もたまには思い出してあげて！",
         imagePath: "./images/pcsd.png",
-        iconPath: "./images/pcsd_c.png"
+        iconPath: "./images/pcsd_c.png",
+        productName: "袋入りの千切りキャベツ",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【葉物野菜、ビタミンC】をマヨと一緒に補給"
     },
     {
         id: "P-C-S-E",
@@ -93,7 +137,11 @@ export const foodMbtiTypes = [
         shortDescription: "毎日同じ時間、同じ席で、同じ高カロリー定食を食べることに幸せを感じる。",
         longDescription: "変化よりも安定、野菜よりも揚げ物。4年間、同じ学食の同じ席で、同じ唐揚げ定食を食べ続けることに精神的な安定を見出す、保守的な快楽主義者。店員さんに顔を覚えられることが勲章です。不足しがちなのは、食材の多様性による【ビタミン全般、食物繊維】。救済フードは『野菜生活100』。食後にこれを一本飲むだけで、失われたビタミンをクイックに補填しよう！変化が欲しくなった時は、いつものメニューに『100円の小鉢』を追加して、小さな冒険を楽しんでみて。",
         imagePath: "./images/pcse.png",
-        iconPath: "./images/pcse_c.png"
+        iconPath: "./images/pcse_c.png",
+        productName: "野菜生活100",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【ビタミン全般、食物繊維】をクイックに補給"
     },
     {
         id: "P-R-A-D",
@@ -101,7 +149,11 @@ export const foodMbtiTypes = [
         shortDescription: "深夜2時に二郎系ラーメンを自作したり、カロリー爆弾を開発する天才。",
         longDescription: "誰も見ていない深夜のキッチンで、カロリーの限界に挑む発明家。カップ麺にマヨネーズとポテチを砕いて乗せるような、正気では考えられない「背徳アレンジ」を日々開発しています。その発想力は天才的ですが、翌朝の胃もたれは確実。不足しがちなのは、塩分過多による【カルシウム、カリウム】。救済フードは、爆速で作れる『チーズたっぷり油そば』。せめてカルシウムをチーズで補って、胃腸を労わってあげて！むくみを流すために『黒豆茶』を飲むのも効果的だよ。",
         imagePath: "./images/prad.png",
-        iconPath: "./images/prad_c.png"
+        iconPath: "./images/prad_c.png",
+        productName: "チーズたっぷり油そば",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【カルシウム、カリウム】をチーズで補給"
     },
     {
         id: "P-R-A-E",
@@ -109,7 +161,11 @@ export const foodMbtiTypes = [
         shortDescription: "Uber Eatsヘビーユーザー。深夜のテンションで激辛やデカ盛りを頼む。",
         longDescription: "ストレスが溜まると指先一つで高カロリーを召喚する、現代の魔法使い。深夜2時にUber Eatsで「激辛デカ盛り」を注文し、届いた時の高揚感で明日への不安を塗りつぶします。玄関に届く料理の音だけが唯一の癒やし。不足しがちなのは、脂質過多による【ビタミンB2、パントテン酸】。救済フードは『キムチ』。激辛欲を満たしつつ、発酵食品で腸内環境を整えて暴走のダメージを最小限に抑えよう！お財布の健康のために、たまには自炊も検討してみて。",
         imagePath: "./images/prae.png",
-        iconPath: "./images/prae_c.png"
+        iconPath: "./images/prae_c.png",
+        productName: "キムチ",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【ビタミンB2、パントテン酸】を発酵食品で補給"
     },
     {
         id: "P-R-S-D",
@@ -117,7 +173,11 @@ export const foodMbtiTypes = [
         shortDescription: "昼夜逆転気味。夜中に冷蔵庫の残り物で手早くチャーハンを作る。 ",
         longDescription: "あるものでパッと美味しいものを作るスキルが高い、生活感あふれる夜型人間。昼夜逆転生活の中で、ふとした空腹をフライパン一つで解決します。冷やご飯、卵、ネギさえあれば、3分後にはパラパラのチャーハンを完成させる技術の持ち主。不足しがちなのは、炭水化物偏重による【鉄分、ビタミンD（太陽光不足）】。救済フードは『サバ缶』。チャーハンの具にすれば、不足しがちな魚の栄養を簡単に摂取できる神アイテムになります。たまには太陽の光も浴びてね！",
         imagePath: "./images/prsd.png",
-        iconPath: "./images/prsd_c.png"
+        iconPath: "./images/prsd_c.png",
+        productName: "サバ缶",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【鉄分、ビタミンD】を魚の栄養で補給"
     },
     {
         id: "P-R-S-E",
@@ -125,6 +185,10 @@ export const foodMbtiTypes = [
         shortDescription: "生きるのが面倒。菓子パン、カップ麺、ゼリー飲料が主食。",
         longDescription: "「腹が膨れれば何でもいい」という悟りの境地に達した、究極のズボラ派。食事を「空腹を止める作業」と捉え、ゴミ出しや洗い物をゼロにすることを最優先しています。箸を洗うのも面倒で、割り箸のストックが生命線。不足しがちなのは【ほぼ全ての栄養素】。救済フードは、コンビニの『ゆで卵』。殻をむくだけで最高品質のタンパク質が摂れる、まさに限界学生のための救世主です！せめて『マルチビタミンサプリ』だけは飲んで、生命を維持しましょう。",
         imagePath: "./images/prse.png",
-        iconPath: "./images/prse_c.png"
+        iconPath: "./images/prse_c.png",
+        productName: "ゆで卵",
+        productUrl: "https://www.keio.ac.jp/ja/",
+        productImagePath: "./images/products/dummy_product.png",
+        productIngredients: "不足しがちな【ほぼ全ての栄養素】を殻むくだけで補給"
     },
 ];

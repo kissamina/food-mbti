@@ -4,8 +4,11 @@ import { seededShuffle } from "./utils/shuffle.js";
 import { foodMbtiTypes, FoodMbtiType } from "./data/types.js";
 import { Answer, judgeType } from "./logic/judgeType.js";
 
+// --- 商品提案の表示判定（/pr パス配下のみ表示） ---
+const showProduct = /\/pr(\/|$)/.test(window.location.pathname);
+
 // --- シャッフル設定 ---
-const SEED = 42; 
+const SEED = 42;
 // 質問順と「左右のAB」を同時に決定的にシャッフル
 const shuffledQuestions = seededShuffle(originalQuestions, SEED);
 
@@ -182,7 +185,24 @@ function renderResult(resultType: FoodMbtiType) {
 
       <img src="${resultType.imagePath}" alt="${resultType.name}" class="result-image">
 
-      
+      ${showProduct ? `
+      <div class="product-section">
+        <h3>商品提案（救済フード）</h3>
+        <div class="product-card">
+          <div class="product-image-wrapper">
+            <img src="${resultType.productImagePath}" alt="${resultType.productName}" class="product-image"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="product-placeholder">画像準備中</div>
+          </div>
+          <div class="product-info">
+            <p class="product-name">${resultType.productName}</p>
+            <p class="product-ingredients">${resultType.productIngredients}</p>
+            ${resultType.productUrl ? `<a href="${resultType.productUrl}" target="_blank" rel="noopener noreferrer" class="btn-check">CHECK!</a>` : `<span class="btn-check btn-check-disabled">CHECK!（準備中）</span>`}
+          </div>
+        </div>
+      </div>
+      ` : ""}
+
       <div class="button-group" style="margin-top: 20px;">
         <button id="detail-btn" class="btn-outline">詳しい説明を見る</button>
         <button id="retry-btn" class="btn-primary" style="margin-left: 8px;">もう一度診断する</button>
@@ -218,6 +238,24 @@ function renderTypeDetail(typeId: string) {
       
       <p>${type.longDescription}</p>
       <img src="${type.imagePath}" alt="${type.name}" class="result-image">
+
+      ${showProduct ? `
+      <div class="product-section">
+        <h3>商品提案（救済フード）</h3>
+        <div class="product-card">
+          <div class="product-image-wrapper">
+            <img src="${type.productImagePath}" alt="${type.productName}" class="product-image"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="product-placeholder">画像準備中</div>
+          </div>
+          <div class="product-info">
+            <p class="product-name">${type.productName}</p>
+            <p class="product-ingredients">${type.productIngredients}</p>
+            ${type.productUrl ? `<a href="${type.productUrl}" target="_blank" rel="noopener noreferrer" class="btn-check">CHECK!</a>` : `<span class="btn-check btn-check-disabled">CHECK!（準備中）</span>`}
+          </div>
+        </div>
+      </div>
+      ` : ""}
 
       <button id="back-btn" class="btn-outline">一覧に戻る</button>
     </div>
